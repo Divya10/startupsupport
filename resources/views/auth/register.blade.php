@@ -53,6 +53,22 @@
                             </div>
                         </div>
 
+                        <fieldset class="form-group">
+                            <label class="col-md-4 control-label">Type</labe;l>
+                            <div class="form-check">
+                              <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="category" id="optionsRadios1" value="org" checked>
+                                Option one is this and that&mdash;be sure to include why it's great
+                              </label>
+                            </div>
+                            <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="category" id="optionsRadios2" value="usr">
+                                Option two can be something else and selecting it will deselect option one
+                              </label>
+                            </div>
+                        </fieldset>
+
                         <div class="form-group">
                             <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
 
