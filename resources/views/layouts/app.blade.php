@@ -76,5 +76,23 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#man_user_form").hide();
+            $(".category_user").click(function(){
+                console.log($("#category_user:checked").val());
+                if($("#category_user:checked").val()==="resource") {
+                    $("#man_user_form").hide();
+                    $("#res_user_form").show();
+                }
+                else {
+                    $("#res_user_form").hide();
+                    $("#man_user_form").show();
+                }
+            });
+        })
+    </script>
 </body>
 </html>
